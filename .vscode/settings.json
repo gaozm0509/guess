@@ -1,0 +1,7 @@
+{
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "tsconfig.json": "*.lock,*.md,*.json,babel.config.js,*.gitignore,.eslintrc,.editorconfig"
+    },
+    "explorer.fileNesting.expand": true
+}

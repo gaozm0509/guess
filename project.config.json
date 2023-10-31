@@ -2,7 +2,7 @@
   "miniprogramRoot": "./dist",
   "projectname": "guess",
   "description": "猜猜我我是谁",
-  "appid": "touristappid",
+  "appid": "wxed6fe423911ded6c",
   "setting": {
     "urlCheck": true,
     "es6": false,

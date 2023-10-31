@@ -1306,7 +1306,7 @@
     "@babel/runtime" "^7.14.5"
     "@tarojs/runtime" "3.4.4"
 
-"@tarojs/components@3.4.4":
+"@tarojs/components@^3.2.1", "@tarojs/components@3.4.4":
   version "3.4.4"
   resolved "https://registry.npmmirror.com/@tarojs/components/-/components-3.4.4.tgz"
   integrity sha512-7vyPT7n/H+a9HKNKsBnGo1Nj3hhoPh+mR2m83mxnBiOHx1FIodWVB701kJd63afKvm9U9H5l0a6Y2U/Qc/+cNw==
@@ -1555,7 +1555,7 @@
     "@tarojs/taro" "3.4.4"
     loader-utils "^1.2.3"
 
-"@tarojs/taro@3.4.4":
+"@tarojs/taro@^3.2.1", "@tarojs/taro@3.4.4":
   version "3.4.4"
   resolved "https://registry.npmmirror.com/@tarojs/taro/-/taro-3.4.4.tgz"
   integrity sha512-IJg2XgUNvRcs6ba/r32wLIR4Oue7yNOiw/m4wsJ6K52uMR0mu0VWWqxQc7fyOOQ4mHI/uefVaMqbX+wSKJJpVQ==
@@ -3768,6 +3768,11 @@ data-urls@^1.1.0:
     abab "^2.0.0"
     whatwg-mimetype "^2.2.0"
     whatwg-url "^7.0.0"
+
+dayjs@^1.8.29:
+  version "1.11.10"
+  resolved "https://registry.npmmirror.com/dayjs/-/dayjs-1.11.10.tgz"
+  integrity sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==
 
 debug@^2.2.0:
   version "2.6.9"
@@ -6331,7 +6336,7 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lodash-es@4.17.15:
+lodash-es@^4.17.15, lodash-es@4.17.15:
   version "4.17.15"
   resolved "https://registry.npmmirror.com/lodash-es/-/lodash-es-4.17.15.tgz"
   integrity sha512-rlrc3yU3+JNOpZ9zj5pQtxnx2THmvRykwL4Xlxoa8I9lHBlVbbyPhgyPMioxVZ4NqyxaVVtaJnzsyOidQIhyyQ==
@@ -9403,6 +9408,14 @@ taro-css-to-react-native@3.4.4:
     css-mediaquery "^0.1.2"
     postcss-value-parser "^3.3.0"
 
+taro-ui-vue3@^1.0.0-alpha.21:
+  version "1.0.0-alpha.21"
+  resolved "https://registry.npmmirror.com/taro-ui-vue3/-/taro-ui-vue3-1.0.0-alpha.21.tgz"
+  integrity sha512-3//e9gnd8VhG9913ifVZP1wwlE9i1iJwwaYkHhSFgD1RhZomHqN+nRBuzNmV+aYZzjpAYqLSpt0v7CHaIyQwdA==
+  dependencies:
+    dayjs "^1.8.29"
+    lodash-es "^4.17.15"
+
 terser-webpack-plugin@^1.4.3:
   version "1.4.5"
   resolved "https://registry.npmmirror.com/terser-webpack-plugin/-/terser-webpack-plugin-1.4.5.tgz"
@@ -9959,7 +9972,7 @@ vue-loader@^16.0.0-beta.8:
     hash-sum "^2.0.0"
     loader-utils "^2.0.0"
 
-vue@*, vue@^3.0.0, vue@3.3.7:
+vue@*, vue@^3.0.0, vue@^3.0.10, vue@3.3.7:
   version "3.3.7"
   resolved "https://registry.npmmirror.com/vue/-/vue-3.3.7.tgz"
   integrity sha512-YEMDia1ZTv1TeBbnu6VybatmSteGOS3A3YgfINOfraCbf85wdKHzscD6HSS/vB4GAtI7sa1XPX7HcQaJ1l24zA==
