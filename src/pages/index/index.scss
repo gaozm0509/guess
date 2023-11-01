@@ -11,6 +11,17 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        
+    }
+    .bottom-view{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    .play-view {
+      // 主色
+      background-color: $secondary;
+      color: #333;
         text{
             font-size: 40px;
             font-weight: 700;
@@ -20,17 +31,38 @@
             height: 40px;
             margin-left: 5px;
         }
-        
-    }
-    .create-view{
-      // 主色
-      background-color: $primary;
-      color: white;
     }
     .add-view{
+    // 主色
+      color: $primary;
+      height: 150px;
+      border: 2px solid $primary;
+      margin-left: 20px;
+        text{
+            font-size: 30px;
+            font-weight: 600;
+        }
+        image{
+            width: 40px;
+            height: 40px;
+            margin-left: 5px;
+        }
+    }
+    .create-view{
       // 辅色
-      background-color: $secondary;
-      margin-top: 20px;
-      color: #333;
+      background-color: $primary;
+      
+      color: white;
+      height: 150px;
+      
+        text{
+            font-size: 30px;
+            font-weight: 600;
+        }
+        image{
+            width: 40px;
+            height: 40px;
+            margin-left: 5px;
+        }
     }
 }
